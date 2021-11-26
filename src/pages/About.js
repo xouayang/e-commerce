@@ -1,7 +1,13 @@
 import React from 'react'
 import {Container,Col,Row,Button} from 'react-bootstrap'
 import Picture from '../image/me.jpg'
+import {useNavigate} from 'react-router-dom'
 const About = () => {
+    const navigate = useNavigate()
+     
+    const contactPage = () => {
+        navigate('/Contact')
+    } 
     return (
         <Container className="mt-5">
            <Row className="mt-3">
@@ -23,7 +29,12 @@ const About = () => {
                <Col xs="auto" md={6} className="text-center mt-5" >
                   <h5 className="mt-5">ເເອດມີນເຮົາສາມາດໃຫ້ຄຳປຶກສາ</h5>
 
-                  <Button className="mt-5" style={{width:'200px',height:'45px',borderRadius:'50px'}} variant="danger">ຕີດຕໍ່</Button>
+                  <Button className="mt-5" style={{
+                      width:'200px',
+                      height:'45px',
+                      borderRadius:'50px'
+                    }}variant="danger" onClick={() => contactPage()}>
+                      ຕີດຕໍ່</Button>
                </Col>
            </Row>
         </Container>

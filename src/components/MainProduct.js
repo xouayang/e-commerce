@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Col,Card,Button,Row} from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus,faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import Picture from '../image/card.png'
 import Picture1 from '../image/card1.png'
 const MainProduct = () => {
@@ -17,7 +17,8 @@ const MainProduct = () => {
                    </Card.Text>
                    
                </Card.Body>
-                 <Col style={{display:'flex',justifyContent:'flex-end', alignItems:'center'}}>
+                 <Col style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
+                 <h6>ລາຄາ: 35,000 ກີບ</h6>
                  <Button variant="primary" style={{borderRadius:'100px',width:'50px',height:'50px',fontSize:'20px'}}>
                  <FontAwesomeIcon icon={faCartPlus}/>
                  </Button>
@@ -34,7 +35,8 @@ const MainProduct = () => {
                    </Card.Text>
                    
                </Card.Body>
-                 <Col style={{display:'flex',justifyContent:'flex-end', alignItems:'center'}}>
+                 <Col style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
+                 <h6>ລາຄາ: 35,000 ກີບ</h6>
                  <Button variant="primary" style={{borderRadius:'100px',width:'50px',height:'50px',fontSize:'20px'}}>
                  <FontAwesomeIcon icon={faCartPlus}/>
                  </Button>
@@ -50,7 +52,8 @@ const MainProduct = () => {
                    </Card.Text>
                    
                </Card.Body>
-                 <Col style={{display:'flex',justifyContent:'flex-end', alignItems:'center'}}>
+                 <Col style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
+                 <h6>ລາຄາ: 35,000 ກີບ</h6>
                  <Button variant="primary" style={{borderRadius:'100px',width:'50px',height:'50px',fontSize:'20px'}}>
                  <FontAwesomeIcon icon={faCartPlus}/>
                  </Button>
@@ -66,7 +69,8 @@ const MainProduct = () => {
                    </Card.Text>
                    
                </Card.Body>
-                 <Col style={{display:'flex',justifyContent:'flex-end', alignItems:'center'}}>
+                 <Col style={{display:'flex',justifyContent:'space-between', alignItems:'center'}}>
+                   <h6>ລາຄາ: 35,000 ກີບ</h6>
                  <Button variant="primary" style={{borderRadius:'100px',width:'50px',height:'50px',fontSize:'20px'}}>
                  <FontAwesomeIcon icon={faCartPlus}/>
                  </Button>
